@@ -46,6 +46,10 @@ public class ConfigHandler {
 	
 	public void configureBlocks() {
 		
+		
+		int bbID = 3000; // bb = base block
+	
+		
 	}
 	
 }
