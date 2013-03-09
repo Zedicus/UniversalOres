@@ -24,10 +24,15 @@ public class UniversalOres {
 	@PreInit
 	public static void PreInit(FMLPreInitializationEvent Event) {
 		
+		Config.ConfigSetup(Event);
+		
 	}
 	
 	@Init
 	public static void Init(FMLInitializationEvent Event) {
+		
+		Config.BlockIds();
+		Blocks.registerBlocks();
 		
 	}
 	
